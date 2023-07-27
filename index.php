@@ -67,10 +67,8 @@
     </div>
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        <!-- JavaScript code -->
-        <script>
+    <script>
         $(document).ready(function() {
-            // Hide the success message after 5 seconds
             setTimeout(function() {
                 $("#successMessage").fadeOut();
             }, 5000);
